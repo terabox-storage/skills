@@ -1,0 +1,37 @@
+# Title: Brief description of this commit (50 chars or less)
+# Format: <type>(<optional scope>): <description>
+# Example: feat(auth): add user login feature
+#
+# Type descriptions:
+#   feat     - New feature
+#   fix      - Bug fix
+#   docs     - Documentation update
+#   style    - Code formatting changes (no functional impact)
+#   refactor - Code refactoring
+#   perf     - Performance optimization
+#   test     - Test related
+#   chore    - Build/tooling/other
+#
+
+
+# Body: Detailed description of changes (optional)
+# - Why was this change made?
+# - What was changed?
+# - How was it tested?
+#
+
+
+# Related Issue (optional)
+# Fixes #123
+# Relates to #456
+#
+
+
+# ====================
+# Checklist:
+# - [ ] Title is concise and follows Conventional Commits specification
+# - [ ] No sensitive information included (tokens, passwords, keys, etc.)
+# - [ ] Code has been self-tested and passed
+# ====================
+#
+# Please remove all comment lines (lines starting with #) before committing
