@@ -1,6 +1,7 @@
 ---
 name: terabox-storage
 description: Manage TeraBox cloud storage operations including login, upload, download, share, and transfer. Use the terabox CLI tool for file management tasks.
+version: 1.0.0
 ---
 
 # TeraBox Storage Skill
