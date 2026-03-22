@@ -1,7 +1,7 @@
 .PHONY: help list pack pack-all clean
 
 # Project configuration
-SKILLS_DIR := skills
+SKILLS_DIR := .
 OUTPUT_DIR := dist
 
 # Color definitions
@@ -62,7 +62,7 @@ pack:
 		exit 1; \
 	fi
 	@echo "$(BLUE)📦 Packing: $(SKILL) v$(VERSION)$(NC)"
-	@cd $(SKILLS_DIR) && zip -r "../$(OUTPUT_DIR)/$(ZIP_NAME)" "$(SKILL)" \
+	@cd $(SKILLS_DIR) && zip -r "$(CURDIR)/$(OUTPUT_DIR)/$(ZIP_NAME)" "$(SKILL)" \
 		-x "*/.git/*" "*/.DS_Store" "*/node_modules/*" "*/__pycache__/*" \
 		-x "*/.env*" "*/.idea/*" "*/.vscode/*" "*/dist/*" "*/build/*" \
 		-x "*.pyc" "*.log" "*.tmp" "*.swp" -q
