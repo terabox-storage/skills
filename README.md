@@ -195,7 +195,7 @@ make help
 make list
 
 # Pack a specific skill
-make pack SKILL=bdpan-storage
+make pack SKILL=terabox-storage
 
 # Pack all skills
 make pack-all
