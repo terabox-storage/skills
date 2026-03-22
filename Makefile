@@ -22,8 +22,8 @@ help:
 	@echo "  make clean             Clean packaging output"
 	@echo ""
 	@echo "Examples:"
-	@echo "  make pack SKILL=bdpan-storage"
-	@echo "  make pack SKILL=bdpan-storage OVERWRITE=1"
+	@echo "  make pack SKILL=terabox-storage"
+	@echo "  make pack SKILL=terabox-storage OVERWRITE=1"
 
 # List all skills
 list:
