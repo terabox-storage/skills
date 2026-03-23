@@ -223,6 +223,18 @@ Supported tag formats:
 - `v*` — e.g. `v1.0.0`
 - `skill-*` — e.g. `skill-v1.0.0`
 
+
+## Join Us  
+
+Welcome to the Terabox-storage user community! Here you can:
+- 🚀 Get the latest version updates and usage tips
+- 💡 Share your use cases and creative ideas
+- 🐛 Report issues and communicate directly with developers
+- 🤝Connect with other AI Agent and tech enthusiasts
+
+Click to join: https://discord.gg/GyDjKnkJ
+
+
 ## License
 
 [MIT License](./LICENSE)
